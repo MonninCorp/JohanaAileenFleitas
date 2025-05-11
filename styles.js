@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     pageContentWrapper.offsetHeight;
                     pageContentWrapper.style.opacity = '1';
                     pageContentWrapper.style.setProperty('--before-opacity', '1');
+                    pageContentWrapper.style.setProperty('align-items', 'flex-start');
 
                     if (mainImg) {
                         setTimeout(() => {
