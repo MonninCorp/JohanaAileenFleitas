@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     pageContentWrapper.style.opacity = '0';
     pageContentWrapper.style.display = 'none';
     pageContentWrapper.style.setProperty('--before-opacity', '0');
+    pageContentWrapper.style.setProperty('align-items', 'flex-start');
     if (mainImg) {
         mainImg.style.opacity = '0';
     }
